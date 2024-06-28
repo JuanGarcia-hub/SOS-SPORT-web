@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;;
+}
+.elemento{
+    height: 20em;
+    border: 2px solid black;
+    width: 20em;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.elemento:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+footer{
+    backdrop-filter: brightness(92%) grayscale(10%);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+header{
+    backdrop-filter: brightness(92%) grayscale(10%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 16vh;
+}
+
+nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#000; 
+}
+
+
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    align-items: center;
+}
+
+img{
+    height: 100px;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    width: 70em;
+    height:12em;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.contenedor1 button:hover{
+    cursor: pointer;
+}
+
+
+.responsanbleFutbol{
+    height: 40vw;
+    width: 23vw;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* display: none; */
+    position: fixed;
+    top:4em;
+    left:45em;
+    background-color: #fff;
+    z-index: 999;
+    display: none;
+}
+
+.responsanbleFutbol img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+.responsanbleFutbol li{
+    list-style: disc;
+    justify-content: center;
+   font-size: 2em;
+   font-family: "Roboto", sans-serif; 
+}
+.responsanbleFutbol h4,h3{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif; 
+}
+.responsanbleFutbol .contenido{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 45px;
+
+}
+.responsanbleFutbol ul{
+    justify-content: center;
+}
+/* .responsanbleFutbol #cerrar{
+    color :rgb(255, 0, 0); 
+    position: relative;
+    top: 0;
+    left: 90px;
+    width: 100px;
+    z-index: 999;
+} */
+.responsanbleFutbol button{
+/* position: fixed;*/
+    color: crimson;
+/* top:  15em;
+    left: 104em; 
+    height: 36px;
+    width: 37px;
+    */
+    position: absolute;
+    top: 10px;
+    left: 17.5em;
+    /* padding-left: 33em;
+    padding-bottom: 7em; */
+    font-family: "Roboto", sans-serif; 
+    /* z-index: 9991; */
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 23px;
+}
+
+.responsanbleFutbol span{
+    font-size: 30px;
+    font-weight: 100px;
+}
